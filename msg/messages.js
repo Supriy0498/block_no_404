@@ -201,6 +201,8 @@ Blockly.Msg.OPERATORS_LENGTH = 'length of %1';
 Blockly.Msg.OPERATORS_CONTAINS = '%1 contains %2?';
 Blockly.Msg.OPERATORS_MOD = '%1 mod %2';
 Blockly.Msg.OPERATORS_ROUND = 'round %1';
+Blockly.Msg.OPERATORS_SQUARE = 'square %1';
+Blockly.Msg.OPERATORS_SQUARE_ROOT = 'square root %1';
 Blockly.Msg.OPERATORS_MATHOP = '%1 of %2';
 Blockly.Msg.OPERATORS_MATHOP_ABS = 'abs';
 Blockly.Msg.OPERATORS_MATHOP_FLOOR = 'floor';
@@ -286,7 +288,7 @@ Blockly.Msg.CATEGORY_SOUND = 'Sound';
 Blockly.Msg.CATEGORY_EVENTS = 'Events';
 Blockly.Msg.CATEGORY_CONTROL = 'Control';
 Blockly.Msg.CATEGORY_SENSING = 'Sensing';
-Blockly.Msg.CATEGORY_OPERATORS = 'Operators';
+Blockly.Msg.CATEGORY_OPERATORS = 'Operatorss';
 Blockly.Msg.CATEGORY_VARIABLES = 'Variables';
 Blockly.Msg.CATEGORY_MYBLOCKS = 'My Blocks';
 

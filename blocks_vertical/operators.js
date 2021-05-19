@@ -52,6 +52,48 @@ Blockly.Blocks['operator_add'] = {
   }
 };
 
+//Square
+Blockly.Blocks['operator_square'] = {
+  /**
+   * Block for square of a number.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_SQUARE,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
+//Square Root
+Blockly.Blocks['operator_square_root'] = {
+  /**
+   * Block for square root of a number.
+   * @this Blockly.Block
+   */
+  init: function() {
+    this.jsonInit({
+      "message0": Blockly.Msg.OPERATORS_SQUARE_ROOT,
+      "args0": [
+        {
+          "type": "input_value",
+          "name": "NUM"
+        }
+      ],
+      "category": Blockly.Categories.operators,
+      "extensions": ["colours_operators", "output_number"]
+    });
+  }
+};
+
 Blockly.Blocks['operator_subtract'] = {
   /**
    * Block for subtracting two numbers.
